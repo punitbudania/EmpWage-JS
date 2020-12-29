@@ -18,8 +18,7 @@ class EmployeePayrollData
     get name() { return this.name;}
     set name(name)
     {
-        console.log("Setting: " + name);
-        this._name = name;
+        this.name = name;
     }
 
     toString()
