@@ -63,6 +63,3 @@ let nonWorkingDayStrArr = empDailyHrsAndWageArr
                             .filter(dailyHrsAndWage => dailyHrsAndWage.dailyHours == 0)
                             .map(dailyHrsAndWage => dailyHrsAndWage.dayNum);
 console.log("\n UC 11D - Non working day nums: " + nonWorkingDayStrArr);
-
-// UC 10
-console.log("UC 10 - Showing daily hours worked and wage earned: " + empDailyHrsAndWageArr);
